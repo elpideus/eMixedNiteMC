@@ -1,0 +1,26 @@
+name: Archive Code as .pthm
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Create ZIP archive
+      run: |
+        zip -r code.zip ./*  # Compress everything in the repo into code.zip
+        mv code.zip code.pthm  # Rename the .zip to .pthm
+
+    - name: Upload the archive as an artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: code-pthm  # Name of the artifact
+        path: code.pthm  # File to upload
