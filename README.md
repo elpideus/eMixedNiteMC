@@ -1,5 +1,5 @@
 _eMixedNiteMC_ is a theme for [Playnite](https://playnite.link/) based on [eminaguil's](https://github.com/eminaguil) [eMixedNite](https://github.com/eminaguil/eMixedNite)
-# eMixedNiteMC [![Release](https://img.shields.io/github/v/release/MCC321-QC/eMixedNiteMC?display_name=release&include_prereleases&label=Release&sort=date&style=flat)](https://github.com/MCC321-QC/eMixedNiteMC/releases/latest) [![Download](https://img.shields.io/github/downloads/MCC321-QC/eMixedNiteMC/total?label=Downloads&style=flat)](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v3.96/eMixedNiteMC_3_96.pthm) [![Crowdin](https://badges.crowdin.net/emixednitemc/localized.svg)](https://crowdin.com/project/emixednitemc) [![Ko-fi Badge](https://img.shields.io/badge/Tip%20me%20on%20Ko--fi-ff5f5f)](https://ko-fi.com/MCC321)
+# eMixedNiteMC [![Release](https://img.shields.io/github/v/release/MCC321-QC/eMixedNiteMC?display_name=release&include_prereleases&label=Release&sort=date&style=flat)](https://github.com/MCC321-QC/eMixedNiteMC/releases/latest) [![Download](https://img.shields.io/github/downloads/MCC321-QC/eMixedNiteMC/total?label=Downloads&style=flat)](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v4.0/eMixedNiteMC_4_0.pthm) [![Crowdin](https://badges.crowdin.net/emixednitemc/localized.svg)](https://crowdin.com/project/emixednitemc) [![Ko-fi Badge](https://img.shields.io/badge/Tip%20me%20on%20Ko--fi-ff5f5f)](https://ko-fi.com/MCC321)
 **_eMixedNiteMC_** features a lot of personalization possibilities, you can get a **simple clean interface** as well as an **advanced interface** that offers a lot of information about your games thanks to various extensions created by the Playnite community. This theme offers both Details View and Grid View almost the same way, has a lot of features like support for game video trailers in the background or cover banners (Included in this theme). Don't forget to check the [installation tutorial](#how-to-install) below and the [FAQ section](#known-bugs--faq) before creating an issue.
 <details>
   <summary>Table of contents</summary>
@@ -40,7 +40,7 @@ _eMixedNiteMC_ is a theme for [Playnite](https://playnite.link/) based on [emina
 
 ## Latest Update
 
-* [eMixedNiteMC v3.96](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v3.96/eMixedNiteMC_3_96.pthm)<br>
+* [eMixedNiteMC v4.0](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v4.0/eMixedNiteMC_4_0.pthm)<br>
 <br>
 
 ![Demo Gif](screenshots/README_Images/Demo1.gif)<br>
@@ -107,7 +107,7 @@ Expander
 
 Double-click or drag and drop the file in Playnite to install it or install it from Playnite using the Add-ons Menu(F9)<br>
 
-* [eMixedNiteMC 3.96](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v3.96/eMixedNiteMC_3_96.pthm)<br>
+* [eMixedNiteMC 4.0](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v4.0/eMixedNiteMC_4_0.pthm)<br>
 <br>
 
 
@@ -136,7 +136,7 @@ You will also need the font I use to have the upper case letter style in the tit
 You can install it by just clicking the .ttf file but you will need to do it each time you restart your computer.
 To fix this, you need to add the font to the registry too. You can do so by clicking the file called InstallFont.<br>
 
-* [eMixedNiteMC Font](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v3.96/eMixedNiteMC_Font.zip)<br>
+* [eMixedNiteMC Font](https://github.com/MCC321-QC/eMixedNiteMC/releases/download/v4.0/eMixedNiteMC_Font.zip)<br>
 <br>
 
 
@@ -220,6 +220,23 @@ extension I strongly recommend is [ThemeModifier](https://github.com/Lacro59/pla
 
 <details><summary>Complete changelog</summary><ol>
     
+- **_Version: 4.0_**
+  - Fixed some performance issue
+    - Should be smoother when selecting another game
+    - Global performance seems better too
+    - Added a section with a tutorial on how to reduce lag and optimize your library in the wiki called [Reduce Lag](https://github.com/MCC321-QC/eMixedNiteMC/wiki/Reduce-Lag)
+    - Be sure to check the [new section](https://github.com/MCC321-QC/eMixedNiteMC/wiki/Reduce-Lag) in the wiki as there is some important new information reguarding performance when using eMixedNiteMC
+  - Fixed [Background Changer](https://github.com/Lacro59/playnite-backgroundchanger-plugin) animated background not working ([Asked](https://github.com/MCC321-QC/eMixedNiteMC/issues/68) by [sovalyeler](https://github.com/sovalyeler))
+  - Added support for the plugin [GOG Second Class Game Watcher](https://playnite.link/addons.html#GOGSecondClassGameWatcher_2661ddac-946a-4fee-ba80-3ece762cb64b) by [darklinkpower](https://github.com/darklinkpower) ([Asked](https://github.com/MCC321-QC/eMixedNiteMC/issues/64) by [Andei](https://github.com/Andei))
+  - Added some missing banners ([Done](https://github.com/MCC321-QC/eMixedNiteMC/pull/67) by [elpideus](https://github.com/elpideus))
+    - Banner for FitGirl added
+    - Banner for DODI added
+    - Banner for RexaGames added
+  - Updated localization
+    - Portuguese updated ([Done](https://github.com/MCC321-QC/eMixedNiteMC/pull/66/files#diff-763dd17f8a1436502ded67a1d841d71d6ea474a810d9ad926e7e0afa42909866) by [cesarjuniorgravatai](https://crowdin.com/profile/cesarjuniorgravatai))
+    - Ukrainian updated ([Done](https://github.com/MCC321-QC/eMixedNiteMC/pull/66/files#diff-73811b5d6f38852fd093076989cb0967b40a382e4695f0481a123caa16df10d9) by [SmithMD24](https://crowdin.com/profile/smithmd24))
+  - Theme API updated to 2.8.0
+
 - **_Version: 3.96_**
   - Updated localization
     - French updated by [Autonome](https://crowdin.com/profile/autonome)
