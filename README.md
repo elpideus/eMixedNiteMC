@@ -113,7 +113,7 @@ Double-click or drag and drop the file in Playnite to install it or install 
 
 ### _Step 2_: Configure your Settings
 
-(_recommended_ **Updated with v3.91**)<br>
+(_recommended_ **Updated with v4.0**)<br>
 I share the settings I use so you can get the same result as in the showcased screenshots.
 I strongly recommend that you test all the options so you can personalize it like you want.
 Don't forget that you need the extension [ThemeModifier](https://github.com/Lacro59/playnite-thememodifier-plugin) to edit/save any settings. You can use the
